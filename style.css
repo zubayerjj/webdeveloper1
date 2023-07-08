@@ -32,7 +32,6 @@ nav li {
 
 nav a {
     text-decoration: none;
-
 }
 
 .btn-primary {
@@ -69,7 +68,6 @@ nav a {
     background: #FFF8F3;
     margin-top: 130px;
 }
-
 .section-title {
     color: #181818;
     text-align: center;
@@ -82,17 +80,45 @@ nav a {
     text-align: center;
     font-size: 18px;
 }
-main{
-   max-width: 1140px;
-   margin: auto;
+
+main {
+    max-width: 1140px;
+    margin: auto;
 }
-.about-info-container{
+
+main section {
+    margin-top: 130px;
+}
+
+.about-info-container {
     display: flex;
     justify-content: space-around;
 }
-.about-inf{
+
+.about-inf {
     text-align: center;
 }
-#id-discription{
-    padding: 30px 150px   ;
-} 
+
+#id-discription {
+    padding: 30px 150px;
+}
+
+.skil-container {
+    display: flex;
+    gap: 24px;
+}
+
+.skill {
+    padding: 30px;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.skill-discription {}
+
+.resume-colum-titel {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}

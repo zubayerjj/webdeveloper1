@@ -82,3 +82,17 @@ nav a {
     text-align: center;
     font-size: 18px;
 }
+main{
+   max-width: 1140px;
+   margin: auto;
+}
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-inf{
+    text-align: center;
+}
+#id-discription{
+    padding: 30px 150px   ;
+} 
